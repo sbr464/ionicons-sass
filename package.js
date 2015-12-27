@@ -24,5 +24,5 @@ Package.onUse(function(api) {
     'stylesheets/_ionicons-variables.scss'
   ], 'server');
 
-  api.addFiles('_ionicons.scss', 'server');
+  api.addAssets('_ionicons.scss');
 });
